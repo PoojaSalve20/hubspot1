@@ -1,0 +1,426 @@
+.navbar-logo {
+  height: 50px;
+}
+
+.bg-image {
+  background-image: url('../src/img/bg.png');
+  height: 609px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(356.01deg, rgba(7, 47, 87, 0.75) 50.8%, rgba(7, 47, 87, 0) 94.58%), linear-gradient(0deg, rgba(7, 47, 87, 0.45), rgba(7, 47, 87, 0.45));
+  z-index: 1;
+}
+
+.mask {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+}
+
+.text-white {
+  color: white;
+}
+.main-heading{
+  font-family: Poppins;
+font-size: 55px;
+font-weight: 700;
+line-height: 66px;
+text-align: center;
+}
+.hero-text{
+  font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+text-align: center;
+
+}
+.form-control {
+  margin-right: 0.5rem;
+}
+.input-icon {
+  position: relative;
+}
+
+.input-icon .icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #f0af73; /* Set the color of the icon */
+}
+
+.form-control {
+  padding-left: 30px; /* Adjust padding to accommodate the icon */
+  width: 400px;
+  
+}
+.videobg{
+   background: #072F57;
+   
+
+}
+.first-heading{
+  font-family: Poppins;
+font-size: 37.34px;
+font-weight: 700;
+line-height: 40px;
+text-align: left;
+
+}
+.limited-paragraph {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: Poppins;
+font-size: 17.16px;
+font-weight: 300;
+line-height: 28px;
+text-align: left;
+
+}
+.btn-custom {
+   background: #00732F;
+   color: #fff;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding-right: 2rem; /* Make space for the arrow */
+  font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+
+}
+
+.btn-custom .arrow-icon {
+  position: absolute;
+  right: 1rem; /* Position the arrow to the right */
+}
+
+
+.box {
+  width: 150px;
+  height: 50px;
+  margin: 10px;
+  border: 1px solid #E7760D; /* Outline-warning color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #000; /* Outline-warning color */
+  font-size: 14px;
+  font-weight: normal;
+}
+
+.box:hover {
+  background: #ffc107;
+  color: #fff;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  height: auto;
+  padding: 30px; /* Add space around the image */
+  text-align: center; /* Center the content horizontally */
+}
+
+.video-div {
+  width: 100%;
+  height: auto;
+  display: block; /* Ensure image behaves like a block element */
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70px; /* Adjust the width of the play button */
+  height: 45px; /* Adjust the height of the play button */
+  background-color: #ff0000; /* Red background */
+  border-radius: 10px; /* Rounded corners */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.play-icon {
+  color: #ffffff; /* White color for the play icon */
+  font-size: 1.5rem; /* Adjust icon size */
+}
+
+.tabs {
+  display: flex;
+  justify-content: normal;
+  padding: 30px;
+}
+
+.tab {
+  padding: 10px 15px; /* Adjusted padding */
+  cursor: pointer;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 22px;
+  color: #fff;
+  transition: all 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.tab.active {
+  font-weight: bold;
+  text-decoration: none;
+  color: #EB7150;
+  font-size: 22px;
+  font-weight: 700;
+  border-bottom: 3px solid #EB7150; /* Color and thickness of the line */
+}
+
+.tab-content{
+  color: #fff;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.circle-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px; /* Adjust circle size */
+  height: 15px; /* Adjust circle size */
+  border-radius: 50%;
+  background-color: #0AA06E; /* Green circle background color */
+  margin-right: 10px; /* Adjust spacing between circle and text */
+}
+
+.check-icon {
+  color: white; /* Color of the check icon */
+  font-size: 10px; /* Adjust icon size if needed */
+}
+.simple-bg{
+  background: #E8FBFF;
+
+}
+.verify-btn{
+  background: #EB7150;
+  width: 25%;
+  color: #fff;
+  font-family: Poppins;
+font-size: 18px;
+font-weight: 700;
+line-height: 24px;
+text-align: center;
+
+}
+/* CSS for adding bottom border to the text */
+.find-you {
+  border-bottom: 3px solid #EB7150; /* Adjust border color and thickness as needed */
+  padding-bottom: 5px; /* Optional: Adjust padding to give space between text and border */
+}
+.supplier-heading{
+  font-family: Poppins;
+font-size: 37.34px;
+font-weight: 600;
+line-height: 40px;
+text-align: left;
+
+}
+.service-heading{
+  font-family: Poppins;
+font-size: 37.34px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+
+}
+.lead{
+  font-family: Poppins;
+font-size: 17.16px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+
+}
+.bgColor{
+  background: #E8FBFF;
+}
+.card-body{
+  margin-top: 40px;
+  font-family: Poppins;
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+text-align: center;
+
+}
+
+/* CSS for responsive adjustments */
+@media (max-width: 768px) {
+  .container.p-3 {
+      padding: 3rem 1rem; /* Adjust padding for smaller screens */
+  }
+}
+/* In your CSS file */
+.no-underline {
+  text-decoration: none;
+}
+
+a.text-white:hover {
+  text-decoration: none;
+}
+.social-icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid white;
+  border-radius: 50%;
+  transition: background-color 0.3s, color 0.3s;
+  text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 1rem;
+  }
+
+  .input-icon {
+    margin-bottom: 10px;
+  }
+
+  .input-icon input {
+    width: 100%;
+  }
+}
+/* Videodiv.css */
+.video-wrapper {
+  position: relative;
+}
+
+.video-div {
+  width: 100%;
+  height: auto;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tab {
+  flex: 1;
+  padding: 0.5rem;
+  cursor: pointer;
+  text-align: center;
+  /* background-color: #f8f9fa; */
+  /* border: 1px solid #dee2e6; */
+}
+
+.tab.active {
+  /* background-color: #343a40; */
+  color: white;
+}
+
+.tab-content .list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.circle-icon {
+  width: 2rem;
+  height: 2rem;
+  /* background-color: #343a40; */
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.supplier-heading {
+  font-size: 2rem;
+}
+
+.verify-btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 50%;
+}
+
+.verify-btn:hover {
+  background-color: #218838;
+}
+
+.simple-bg {
+  background-color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+  .supplier-heading {
+      text-align: center;
+  }
+
+  .tab-content .list-item {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .circle-icon {
+      margin-bottom: 0.5rem;
+  }
+  .btn-custom {
+    width: 100%;
+  }
+  .verify-btn 
+{
+width: 100%;
+}
+
+}
+
+
+
+
+
+
+
